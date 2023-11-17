@@ -1,0 +1,88 @@
+/* styles.css */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #2d3436; /* Updated background color */
+    color: #ffffff;
+    margin: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #353b48;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #61dafb;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+select,
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #2f3640;
+    border-radius: 5px;
+    background-color: #2f3640;
+    color: #ffffff;
+}
+
+button {
+    background-color: #61dafb;
+    color: #ffffff;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #4fa3d1;
+}
+
+.meal-plan-table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.meal-plan-table,
+th,
+td {
+    border: 1px solid #2f3640;
+}
+
+th,
+td {
+    padding: 15px;
+    text-align: left;
+    vertical-align: top;
+    background-color: #2f3640;
+}
+
+th {
+    background-color: #61dafb;
+    color: #ffffff;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
